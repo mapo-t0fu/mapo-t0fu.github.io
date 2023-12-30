@@ -1,0 +1,14 @@
+| element/format | title | prefLabel | date | type | creator | desc. | text | url | img | mp3 | mp4 |
+|----------------|-------|-----------|------|------|---------|-------|------|-----|-----|-----|-----|
+| notes          | x     |           | x    | x    | x       | x     | x    |     |     |     |     |
+| books/articles | x     |           | x    | x    | x       | x     |      | x   |     |     |     |
+| photos         | x     |           | x    | x    | x       | x     |      |     | x   |     |     |
+| films/video    | x     |           | x    | x    | x       | x     |      | x   |     |     | x   |
+| music/sound    | x     |           | x    | x    | x       | x     |      | x   |     | x   |     |
+| websites       | x     |           | x    | x    | x       | x     |      | x   |     |     |     |
+| person         |       | x         |      | x    |         | x     |      |     |     |     |     |
+| group          |       | x         |      | x    |         | x     |      |     |     |     |     |
+| event          |       | x         |      | x    |         | x     |      |     |     |     |     |
+| activity       |       | x         |      | x    |         | x     |      |     |     |     |     |
+| place          |       | x         |      | x    |         | x     |      |     |     |     |     |
+| ontology       |       | x         |      | x    |         | x     |      |     |     |     |     |
