@@ -1,0 +1,28 @@
+---
+rdf_prefix_path: "_data/prefixes.sparql"
+---
+<!DOCTYPE html>
+<html lang="en-SG">
+    <head>
+        <title>{{ page.rdf | rdf_property: "rdfs:label" }}</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="mapo tofu" />
+        <meta name="description" content="about page"/>
+        <link rel="icon" href="images/strawberry.png" type="image/x-icon" />
+        <link rel="stylesheet" href="../css/indexes.css" />
+    </head>
+    <body>
+        <dl>
+            <dt>URI:</dt>
+                <dd>{{ page.rdf }}</dd>
+            <dt>name:</dt>
+                <dd>{{ page.rdf | rdf_property: "rdfs:label" }}</dd>
+            <dt>date:</dt>
+                <dd>{{ page.rdf | rdf_property: "dc:date" }}</dd>
+            <dt>type</dt>
+                <dd><a href="{{ page.rdf | rdf_property: "rdf:type" }}">{{ page.rdf | rdf_property: "rdf:type" }}</a></dd>
+            <dt>description</dt>
+                <dd>{{ page.rdf | rdf_property: "dc:description" }}</dd>
+        </dl>
+    </body>
+</html>

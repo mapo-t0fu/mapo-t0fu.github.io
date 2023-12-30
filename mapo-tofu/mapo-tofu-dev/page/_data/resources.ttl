@@ -1,0 +1,21 @@
+@prefix dctype:<http://purl.org/dc/dcmitype/> .
+@prefix dc:<http://purl.org/dc/terms/> .
+@prefix mt:<https://map0-tofu.github.io/resources/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <https://www.w3.org/TR/rdf-schema/>.
+@prefix schema: <https://schema.org/>.
+
+mt:website rdfs:subClassOf dctype:InteractiveResource;
+    a rdf:Class;
+    rdfs:label "website";
+    dc:date "2023";
+    dc:creator mt:jamie-lee;
+    dc:description "websites, webpages, webapps, etc."@en .
+mt:cari-institute_website 
+    a mt:website;
+    rdfs:label "Consumer Aesthetics Research Institute (CARI) website"@en;
+    dc:date "2021";
+    dc:creator <https://cari.institute/>;
+    dc:description "cool website :)"@en;
+    schema:url <https://cari.institute/> .
