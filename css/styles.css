@@ -46,7 +46,7 @@ div.left-column{
 }
 .column{
     display: inline-block;
-    width:50%;
+    width:auto;
 }
 div.left-column div.column section ul{
     text-align: left;
