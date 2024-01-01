@@ -43,13 +43,14 @@ main div{
 }
 div.left-column{
     text-align: center;
+    border: 1px dotted black;
 }
 .column{
     display: inline-block;
     width:33.3%;
 }
 div.left-column div.column section ul{
-    text-align: center;
+    text-align: left;
     font-size: 100%;
     font-family: "Terminal Grotesque";
     list-style-position: inside; 
@@ -68,7 +69,7 @@ a:hover{
     color:rgb(255, 221, 0);
 }
 div.left-column div.column section h2{
-    text-align: center;
+    text-align: left;
     font-size: 100%;
     font-family: "Terminal Grotesque";
     font-style: bold;
@@ -76,9 +77,14 @@ div.left-column div.column section h2{
     padding-left: 0;
     list-style-type: none;
 }
+
 header h1 {
     font-family: "JMH Cthulhumbus Arcade";
+    color: rgb(255, 255, 255);
+    background-color: black;
+
 }
+
 iframe{
     border-style: none;
 
