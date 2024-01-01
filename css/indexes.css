@@ -27,6 +27,7 @@ a:hover{
 body {
     width: 400px;
     font-family: "Terminal Grotesque";
+    margin: 0;
   }
 body span, body span a:link, body span a:visited {
     color: #818181;     

@@ -66,7 +66,7 @@ a:link, a:visited {
 }
 
 a:hover{
-    color:rgb(255, 221, 0);
+    color:#ffd000;
 }
 div.left-column div.column section h2{
     text-align: left;
@@ -87,7 +87,6 @@ header h1 {
 
 iframe{
     border-style: none;
-
 } 
 * {
     box-sizing: border-box;
