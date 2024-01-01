@@ -1,0 +1,6 @@
+The idea is to represent the knowledge graph back-end as a small, sustainable set of static html files. This is so you can browse records and entities contained in the knowledge graph through a more familiar, almost old-web-esque experience. I wanted to design a smooth pipeline for updating a repository comprising many different formats. I've come up with the following workflow so far:
+
+1. Data to be published in the knowledge graph is entered into a CSV file, and converted to RDF using Ontotext Refine
+2. Photographs run through dithering programme and converted to 400x300</li>
+3. RDF data converted to HTML (resource template) using ??? and stored in /resources/</li>
+4. Indexes are regenerated and converted to HTML (index template) using ??? and stored in /indexes/</li>
