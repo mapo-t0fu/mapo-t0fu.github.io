@@ -43,7 +43,6 @@ main div{
 }
 div.left-column{
     text-align: center;
-    border: 1px dotted black;
 }
 .column{
     display: inline-block;
